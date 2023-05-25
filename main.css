@@ -34,11 +34,8 @@ nav .link-wrap div a {
 nav .active {
   color: #e31b6d;
 }
-/* ---nav--- */
 
 /* ---about--- */
-/* #about  */
-
 .header {
   color: #444649;
   font-weight: bold;
@@ -63,8 +60,6 @@ nav .active {
 .waypoint {
   padding: 10px;
 }
-
-/* #about  */
 
 .header_bar {
   width: 65px;
@@ -108,6 +103,7 @@ nav .active {
 
 .me img {
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 
 img {
