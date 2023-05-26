@@ -57,6 +57,12 @@ nav .active {
   border-radius: 50%;
 }
 
+.hexagon img {
+  height: 60px;
+  width: 60px;
+  margin: 36px;
+}
+
 .waypoint {
   padding: 10px;
 }
