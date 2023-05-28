@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.about_icon {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.hexagon {
+  background-color: #04c2c9;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.hexagon img {
+  height: 100px;
+  width: 100px;
+  margin-top: 25px;
+}
