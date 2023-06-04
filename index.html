@@ -1,480 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="shortcut icon" type="image/jpg" href="images/resume.png" />
-    <link rel="stylesheet" href="main.css" />
-    <title>portfolio.com</title>
-  </head>
-  <body>
-    <nav class="main_nav">
-      <div class="link-wrap">
-        <div>
-          <a href="">Home</a>
-        </div>
-        <div>
-          <a href="#about">About</a>
-        </div>
-        <div>
-          <a href="#portfolio">Portfolio</a>
-        </div>
-        <div>
-          <a href="#blogs">Blog</a>
-        </div>
-        <div>
-          <a href="#contact">Contact</a>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="boxicons.min.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <link rel="shortcut icon" type="image/jpg" href="images/resume.png" />
+  <link rel="stylesheet" href="main.css" />
+  <title>portfolio.com</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark fixed" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://01ajeetvishwakarma.github.io/resume/">Resume</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- About -->
-    <section id="about">
-      <div class="header">About</div>
-      <div class="header_bar"></div>
+  <div class="container-fluid">
 
-      <div class="about_features">
-        <div class="about_feature">
-          <div class="feature">
-            <div class="hexagon">
-              <img src="images/resume.png" />
-            </div>
-            <div class="waypoint">
-              <div class="label">Fast</div>
-              <div class="label_desc">
-                Fast load times and lag free interaction, my highest priority.
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="hexagon">
-              <img src="images/resume.png" />
-            </div>
-            <div class="waypoint">
-              <div class="label">Responsive</div>
-              <div class="label_desc">
-                My layouts will work on any device, big or small.
-              </div>
-            </div>
-          </div>
+    <!-- ========about======== -->
+    <div class="row my-2">
+      <h3>About</h3>
+    </div>
+
+    <!-- ====about circle==== -->
+    <div class="row">
+      <div class="about_circle">
+        <div class="icon">
+          <img src="images/about_icon/tachometer-regular-24.png" alt="">
         </div>
-
-        <div class="about_feature">
-          <div class="feature">
-            <div class="hexagon">
-              <img src="images/resume.png" />
-            </div>
-            <div class="waypoint">
-              <div class="label">Intuitive</div>
-              <div class="label_desc">
-                Strong preference for easy to use, intuitive UX/UI.
-              </div>
-            </div>
-          </div>
-          <div class="feature">
-            <div class="hexagon">
-              <img src="images/resume.png" />
-            </div>
-            <div class="waypoint">
-              <div class="label">Dynamic</div>
-              <div class="label_desc">
-                Websites don't have to be static, I love making pages come to
-                life.
-              </div>
-            </div>
-          </div>
+        <p class="title">Fast</p>
+        <p class="text">Fast load times and lag free interaction, my highest
+          priority.</p>
+      </div>
+      <div class="about_circle">
+        <div class="icon">
+          <img src="images/about_icon/devices-regular-24.png" alt="">
         </div>
+        <p class="title">Responsive</p>
+        <p class="text">My layouts will work on any device, big or small.</p>
+      </div>
+      <div class="about_circle">
+        <div class="icon">
+          <img src="images/about_icon/bulb-regular-24.png" alt="">
+        </div>
+        <p class="title">Intuitive</p>
+        <p class="text">Strong preference for easy to use, intuitive UX/UI.</p>
+      </div>
+      <div class="about_circle">
+        <div class="icon">
+          <img src="images/about_icon/rocket-regular-24.png" alt="">
+        </div>
+        <p class="title">Dynamic</p>
+        <p class="text">Websites don't have to be static, I love making pages come
+          to life.</p>
       </div>
 
-      <div class="skill_wrapper">
-        <div class="me">
-          <div>
-            <img src="images\me.jpg" alt="" class="image" />
-          </div>
-          <div class="label"><strong>Who's This guy?</strong></div>
-          <div class="label_desc">
-            I'm a Front-End Developer
-            <p>
-              I have serious passion for UI effects, animations and creating
-              intuitive, dynamic user experiences.
-            </p>
-            <span>Let's make something special.</span>
-          </div>
-        </div>
+    </div>
 
-        <div class="skills skill_bar">
-          <div class="progress">
-            <div class="progress_bar" style="width: 90%">
-              <div class="skill_name">Html</div>
-            </div>
-            <span>90%</span>
+    <!-- ====magic card==== -->
+    <div class="row my-5">
+      <div class="col-3">
+        <div class="magic_card">
+          <div class="card-img">
+            <img src="images/me.jpg" alt="">
           </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 90%">
-              <div class="skill_name">CSS</div>
-            </div>
-            <span>90%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 80%">
-              <div class="skill_name">Html</div>
-            </div>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 80%">
-              <div class="skill_name">CSS</div>
-            </div>
-            <span>80%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 60%">
-              <div class="skill_name">Html</div>
-            </div>
-            <span>60%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 70%">
-              <div class="skill_name">CSS</div>
-            </div>
-            <span>70%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 60%">
-              <div class="skill_name">Html</div>
-            </div>
-            <span>60%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 50%">
-              <div class="skill_name">CSS</div>
-            </div>
-            <span>50%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 65%">
-              <div class="skill_name">Html</div>
-            </div>
-            <span>65%</span>
-          </div>
-          <div class="progress">
-            <div class="progress_bar" style="width: 50%">
-              <div class="skill_name">CSS</div>
-            </div>
-            <span>50%</span>
+          <div class="card-info">
+            <p class="text-body">I'm a Front-End Developer</p>
+            <p class="text-title">Let's make something special.</p>
           </div>
         </div>
       </div>
-    </section>
+
+      <!-- ====skills bar==== -->
+      <div class="row col-8">
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="progress mb-3" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- ---Portfolio--- -->
-    <section id="portfolio">
-      <div class="header">Projects</div>
+    <div class="row">
+      <h3>Projects</h3>
+    </div>
 
-      <div class="header_bar"></div>
+    <div class="row">
+      <div class="col-3" data-filter="all">All</div>
+      <div class="col-3" data-filter=".rails">Ruby/Rails</div>
+      <div class="col-3" data-filter=".react">React-Js</div>
+      <div class="col-3" data-filter=".js">Javascript</div>
+    </div>
 
-      <div class="project_filter">
-        <div class="filters">
-          <div class="filter" data-filter="all">All</div>
-          <div class="filter" data-filter=".rails">Ruby/Rails</div>
-          <div class="filter" data-filter=".react">React-Js</div>
-          <div class="filter" data-filter=".js">Javascript</div>
+    <!-- =====cards======= -->
+    <div class="row project_cards mt-5">
+
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
+          </div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div id="gallery">
-        <div class="mix js">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
           </div>
-        </div>
-        <div class="mix rails">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix js">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix rails">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix js">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix react">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix js">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix react">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
-          </div>
-        </div>
-        <div class="mix react">
-          <div>
-            <div class="card">
-              <img src="images/Loki.jpg" alt="" />
-            </div>
-            <div class="text">
-              <div>cskfjn Ordering</div>
-              <span>React JS / Python</span>
-            </div>
-            <div class="button"></div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- ---Blog--- -->
-    <section id="blogs">
-      <div>
-        <div class="header">Blog</div>
-        <div class="header_bar"></div>
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
+          </div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
+          </div>
+        </div>
+      </div>
 
-        <div class="blogs_container">
-          <div class="blog_container">
-            <a href="">
-              <div class="blog_wrap">
-                <div class="fade_wrap">
-                  <div class="thumb" id="thumb-1">
-                    <img src="images/Loki.jpg" alt="" />
-                  </div>
-                  <div class="label">Breaking Your Coder's Block</div>
-                  <div class="blog_date">APRIL 29, 2016</div>
-                  <div class="header_bar"></div>
-                  <div class="text">
-                    At one time or another, as a developer, we've all found
-                    ourselves hopelessly stuck on a coding issue...
-                  </div>
-                </div>
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
+          </div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
+          </div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <div class="project_card">
+          <div class="img-content">
+            <img src="images/Loki.jpg" alt="">
+          </div>
+          <div class="content">
+            <p class="heading">Card Hover</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipii
+              voluptas ten mollitia pariatur odit, ab
+              minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+              necessitatibus dignissimos molestias.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ====blog==== -->
+    <div class="row my-3">
+      <h3>Blog</h3>
+    </div>
+
+    <div class="row">
+
+      <article class="blog_card">
+        <div class="temporary_text">
+          <img src="images/Loki.jpg" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Breaking Your Coder's Block</span>
+          <span class="card_subtitle">APRIL 29, 2016</span>
+          <p class="card_description">At one time or another, as a developer, we've all found
+            ourselves hopelessly stuck on a coding issue...</p>
+        </div>
+      </article>
+
+      <article class="blog_card">
+        <div class="temporary_text">
+          <img src="images/Loki.jpg" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">!Awake: This is Your Brain on Caffeine</span>
+          <span class="card_subtitle">MARCH 19, 2015</span>
+          <p class="card_description">If there's one thing I can truly claim to be an expert on,
+            it's staying awake. For five years I struggled to stay
+            employed...</p>
+        </div>
+      </article>
+
+      <article class="blog_card">
+        <div class="temporary_text">
+          <img src="images/Loki.jpg" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Getting a Handle on Handlebars</span>
+          <span class="card_subtitle">MARCH 04, 2015</span>
+          <p class="card_description">Here at EyeCue Lab we render most of our data-laden HTML
+            pages in Handlebar templates...</p>
+        </div>
+      </article>
+
+      <article class="blog_card">
+        <div class="temporary_text">
+          <img src="images/Loki.jpg" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">5 Extensions for Your Chrome Toolbelt</span>
+          <span class="card_subtitle">FEBRUARY 23, 2015</span>
+          <p class="card_description">
+            If you're not using Google Chrome as a front-end web
+            developer, you're missing out. Not only is Chrome the...
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- ===contact===== -->
+    <div class="row">
+      <section id="contact">
+        <h3 class="header">
+          CONTACT
+        </h3>
+        <div class="container flex">
+          <div class="highlight my-3">
+            Have a question or want to work together?
+          </div>
+          <form class="" id="contact-form">
+            <input placeholder="Name" type="text" name="name" required="">
+            <input placeholder="Enter email" type="email" name="email" required="">
+            <textarea placeholder="Your Message" type="text" name="message"></textarea>
+            <div id="success">
+              <div>
+                Your message was sent successfully. Thanks!<span id="close"></span>
               </div>
-            </a>
-            <a href="">
-              <div class="blog_wrap">
-                <div class="fade_wrap">
-                  <div class="thumb" id="thumb-1">
-                    <img src="images/Loki.jpg" alt="" />
-                  </div>
-                  <div class="label">Breaking Your Coder's Block</div>
-                  <div class="blog_date">APRIL 29, 2016</div>
-                  <div class="header_bar"></div>
-                  <div class="text">
-                    At one time or another, as a developer, we've all found
-                    ourselves hopelessly stuck on a coding issue...
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="blog_container">
-            <a href="">
-              <div class="blog_wrap">
-                <div class="fade_wrap">
-                  <div class="thumb" id="thumb-1">
-                    <img src="images/Loki.jpg" alt="" />
-                  </div>
-                  <div class="label">Breaking Your Coder's Block</div>
-                  <div class="blog_date">APRIL 29, 2016</div>
-                  <div class="header_bar"></div>
-                  <div class="text">
-                    At one time or another, as a developer, we've all found
-                    ourselves hopelessly stuck on a coding issue...
-                  </div>
-                </div>
-              </div>
-            </a>
-            <a href="">
-              <div class="blog_wrap">
-                <div class="fade_wrap">
-                  <div class="thumb" id="thumb-1">
-                    <img src="images/Loki.jpg" alt="" />
-                  </div>
-                  <div class="label">Breaking Your Coder's Block</div>
-                  <div class="blog_date">APRIL 29, 2016</div>
-                  <div class="header_bar"></div>
-                  <div class="text">
-                    At one time or another, as a developer, we've all found
-                    ourselves hopelessly stuck on a coding issue...
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ---Contact--- -->
-    <section id="contact">
-      <svg
-        preserveAspectRatio="none"
-        viewBox="0 0 100 102"
-        height="75"
-        width="100%"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        class="svgcolor-light"
-      >
-        <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-      </svg>
-      <div class="contact_container">
-        <div class="header">Contact</div>
-        <div class="header_bar"></div>
-        <div class="highlight">Have a question or want to work together?</div>
-
-        <form action="" class="form">
-          <input
-            class="form_input"
-            type="text"
-            name="name"
-            placeholder="Name"
-            required
-          />
-          <input
-            class="form_input"
-            type="email"
-            name="email"
-            placeholder="E-Mail"
-            required
-          />
-          <textarea
-            class="form_input"
-            name="message"
-            cols="30"
-            rows="10"
-            placeholder="Your Message"
-          ></textarea>
-          <div class="success" id="success">
-            <div>
-              Your message was sent successfully. Thanks!
-              <input
-                type="button"
-                onclick="closeForm()"
-                value="Close"
-                class="button"
-                id="close"
-              />
             </div>
-            <!-- <span ></span> -->
-          </div>
-          <input
-            type="button"
-            onclick="openForm()"
-            value="SUBMIT"
-            class="button"
-            id="submit"
-          />
-        </form>
-      </div>
-    </section>
-
-    <!-- ---Footer--- -->
-    <footer id="footer">
-      <i class="up_arrow"></i>
-      <div class="icon_wrap">
-        <a href="https://www.linkedin.com/in/ajeetvishwakarma/">
-          <div class="icon">
-            <i class="fa fa-linkedin"></i>
-          </div>
-        </a>
-        <a href="https://www.facebook.com/">
-          <div class="icon">
-            <i class="fa fa-facebook"></i>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/">
-          <div class="icon">
-            <i class="fa fa-youtube"></i>
-          </div>
-        </a>
-        <a href="https://www.instagram.com/">
-          <div class="icon">
-            <i class="fa fa-instagram"></i>
-          </div>
-        </a>
-      </div>
-      <div class="info_box">
-        <div class="footnote">
-          AJEET VISHWAKARMA <span class="highlight">©2023</span>
+            <input class="button" type="submit" id="submit" value="SUBMIT">
+          </form>
         </div>
-      </div>
-    </footer>
+      </section>
+    </div>
 
-    <script src="main.js"></script>
-  </body>
+  </div>
+
+  <!-- ====footer===== -->
+  <footer>
+
+    <i class="x bx-chevrons-up up_arrow" dest="home"></i>
+
+    <div class="icon-wrap">
+      <a href="https://www.linkedin.com/in/ajeetvishwakarma/">
+        <div class="flex icon">
+          <i class='bx bxl-linkedin'></i>
+        </div>
+      </a>
+      <a href="https://github.com/01Ajeetvishwakarma">
+        <div class="flex icon">
+          <i class='bx bxl-github'></i>
+        </div>
+      </a>
+      <a href="https://www.facebook.com/">
+        <div class="flex icon">
+          <i class='bx bxl-facebook'></i>
+        </div>
+      </a>
+      <a href="https://instagram.com/">
+        <div class="flex icon">
+          <i class='bx bxl-instagram'></i>
+        </div>
+      </a>
+      <a href="http://codepen.io/">
+        <div class="flex icon">
+          <i class='bx bxl-codepen'></i>
+        </div>
+      </a>
+    </div>
+    <div class="info-box">
+      <div class="footnote">
+        Ajeet Vishwakarma <span class="highlight">©2023</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
